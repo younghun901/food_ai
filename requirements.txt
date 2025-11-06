@@ -1,0 +1,29 @@
+streamlit
+seaborn
+jupyter
+numpy
+matplotlib.pyplot
+os
+google
+google-genai
+# --- 웹 앱 프레임워크 ---
+streamlit==1.38.0
+
+# --- 데이터 처리 ---
+pandas==2.2.3
+numpy==1.26.4
+
+# --- 시각화 ---
+plotly==5.24.0
+
+# --- 이미지 처리 ---
+Pillow==10.4.0
+
+# --- 머신러닝 ---
+scikit-learn==1.5.2
+
+# --- Google AI (Gemini API) ---
+google-generativeai==0.7.2
+
+# --- 기타 (파일, OS, 경고제어용 등) ---
+python-dotenv==1.0.1
