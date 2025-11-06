@@ -1,0 +1,6 @@
+import joblib
+from sklearn.ensemble import GradientBoostingRegressor
+
+model = GradientBoostingRegressor()
+model.fit(X_train, y_train)
+joblib.dump(model, "food_calorie_model.pkl")
