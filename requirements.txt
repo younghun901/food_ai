@@ -3,7 +3,6 @@ seaborn
 jupyter
 numpy
 matplotlib
-os
 google
 google-genai
 # --- 웹 앱 프레임워크 ---
