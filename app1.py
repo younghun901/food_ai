@@ -1,4 +1,13 @@
 import streamlit as st
+
+# Configure page layout
+st.set_page_config(
+        page_title="맛춤식",
+        page_icon="🍽️",
+        layout="wide",
+        initial_sidebar_state="expanded"
+    )
+
 from streamlit.components.v1 import html
 import streamlit.components.v1 as components
 
@@ -187,14 +196,6 @@ def main():
     # Apply theme detection and custom CSS
     detect_system_theme()
     apply_custom_css()
-    
-    # Configure page layout
-    st.set_page_config(
-        page_title="맛춤식",
-        page_icon="🍽️",
-        layout="wide",
-        initial_sidebar_state="expanded"
-    )
     
     # Sidebar customization
     with st.sidebar:
