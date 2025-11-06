@@ -47,7 +47,7 @@ def extract_section(text, start, end_marker=None):
 
 def load_regression_model():
     base_dir = os.path.dirname(__file__)
-    model_path = os.path.join(base_dir, "food_calorie_model.pkl")     # 또는 "model.joblib"
+    model_path = os.path.join(base_dir, "food_calorie_model.pkl")
     if not os.path.exists(model_path):
         raise FileNotFoundError("사전 학습된 모델 파일(food_calorie_model.pkl)이 없습니다. 먼저 py에서 모델을 학습 및 저장하세요.")
     model = joblib.load(model_path)
